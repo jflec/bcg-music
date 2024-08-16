@@ -17,9 +17,6 @@
 	"entrypoints": {
 		"main": [
 			"net.joe.bcgmusic.BCGMusic"
-		],
-		"fabric-datagen": [
-			"net.joe.bcgmusic.BCGMusicDataGenerator"
 		]
 	},
 	"mixins": [

@@ -2,7 +2,6 @@ package net.joe.bcgmusic;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.joe.bcgmusic.item.ModItemGroup;
 import net.joe.bcgmusic.item.ModItems;
 import net.joe.bcgmusic.sound.ModSounds;
 import org.slf4j.Logger;
@@ -14,9 +13,7 @@ public class BCGMusic implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 		ModSounds.registerModSounds();
-
 	}
 }
