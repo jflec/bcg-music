@@ -10,6 +10,5 @@ public class BCGMusicDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModItemTagProvider::new);
-		pack.addProvider(ModModelProvider::new);
 	}
 }
