@@ -6,6 +6,24 @@
         "stream": true
       }
     ]
+  },
+
+  "blessings": {
+    "sounds": [
+      {
+        "name": "bcgmusic:blessings",
+        "stream": true
+      }
+    ]
+  },
+
+  "beginning_of_infinity": {
+    "sounds": [
+      {
+        "name": "bcgmusic:beginning_of_infinity",
+        "stream": true
+      }
+    ]
   }
 }
 

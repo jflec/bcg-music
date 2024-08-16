@@ -12,16 +12,12 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "ARR",
-	"icon": "assets/bcgmusic/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.joe.bcgmusic.BCGMusic"
 		]
 	},
-	"mixins": [
-		"bcgmusic.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.20.1",

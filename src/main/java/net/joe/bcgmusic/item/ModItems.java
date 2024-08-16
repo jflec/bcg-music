@@ -17,17 +17,24 @@ public class ModItems {
     public static final Item WALTZ_FOR_THE_LILIES = registerItem("waltz_for_the_lilies",
             new MusicDiscItem(9, ModSounds.WALTZ_FOR_THE_LILIES, new FabricItemSettings().maxCount(1), 122));
 
+    public static final Item BLESSINGS = registerItem("blessings",
+            new MusicDiscItem(9, ModSounds.BLESSINGS, new FabricItemSettings().maxCount(1), 122));
+
+    public static final Item BEGINNING_OF_INFINITY = registerItem("beginning_of_infinity",
+            new MusicDiscItem(9, ModSounds.BEGINNING_OF_INFINITY, new FabricItemSettings().maxCount(1), 122));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BCGMusic.MOD_ID, name), item);
     }
 
     private static void itemGroupIngredients(FabricItemGroupEntries entries) {
         entries.add(WALTZ_FOR_THE_LILIES);
+        entries.add(BLESSINGS);
+        entries.add(BEGINNING_OF_INFINITY);
     }
 
     public static void registerModItems() {
         BCGMusic.LOGGER.info("Registering items for " + BCGMusic.MOD_ID);
-
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::itemGroupIngredients);
     }
 }
