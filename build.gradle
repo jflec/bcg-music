@@ -33,6 +33,10 @@ dependencies {
 	
 }
 
+tasks.named("processResources") {
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
 processResources {
 	inputs.property "version", project.version
 
@@ -44,6 +48,8 @@ processResources {
 tasks.withType(JavaCompile).configureEach {
 	it.options.release = 17
 }
+
+
 
 java {
 	// Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task

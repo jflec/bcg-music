@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "bcg-music",
+	"id": "bcgmusic",
 	"version": "${version}",
 	"name": "BCG Music",
-	"description": "The official BigChadGuys Soundtrack is here! Created entirely by bndf88—find him on Spotify!",
+	"description": "The official BigChadGuys Soundtrack! Created entirely by bndf88—find him on Spotify!",
 	"authors": [
 		"joe"
 	],
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "ARR",
-	"icon": "assets/bcg-music/icon.png",
+	"icon": "assets/bcgmusic/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -20,13 +20,10 @@
 		],
 		"fabric-datagen": [
 			"net.joe.bcgmusic.BCGMusicDataGenerator"
-		],
-		"client": [
-			"net.joe.bcgmusic.BCGMusicModClient"
 		]
 	},
 	"mixins": [
-		"bcg-music.mixins.json"
+		"bcgmusic.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
