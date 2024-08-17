@@ -24,6 +24,24 @@
         "stream": true
       }
     ]
+  },
+
+  "planes_in_space": {
+    "sounds": [
+      {
+        "name": "bcgmusic:planes_in_space",
+        "stream": true
+      }
+    ]
+  },
+
+  "joe_theme": {
+    "sounds": [
+      {
+        "name": "bcgmusic:joe_theme",
+        "stream": true
+      }
+    ]
   }
 }
 

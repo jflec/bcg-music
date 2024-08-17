@@ -13,16 +13,16 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-
     public static final Item WALTZ_FOR_THE_LILIES = registerItem("waltz_for_the_lilies",
-            new MusicDiscItem(9, ModSounds.WALTZ_FOR_THE_LILIES, new FabricItemSettings().maxCount(1), 122));
-
+            new MusicDiscItem(9, ModSounds.WALTZ_FOR_THE_LILIES, new FabricItemSettings().maxCount(1), 165));
     public static final Item BLESSINGS = registerItem("blessings",
-            new MusicDiscItem(9, ModSounds.BLESSINGS, new FabricItemSettings().maxCount(1), 122));
-
+            new MusicDiscItem(9, ModSounds.BLESSINGS, new FabricItemSettings().maxCount(1), 240));
     public static final Item BEGINNING_OF_INFINITY = registerItem("beginning_of_infinity",
             new MusicDiscItem(9, ModSounds.BEGINNING_OF_INFINITY, new FabricItemSettings().maxCount(1), 122));
-
+    public static final Item PLANES_IN_SPACE = registerItem("planes_in_space",
+            new MusicDiscItem(9, ModSounds.PLANES_IN_SPACE, new FabricItemSettings().maxCount(1), 122));
+    public static final Item JOE_THEME = registerItem("joe_theme",
+            new MusicDiscItem(9, ModSounds.JOE_THEME, new FabricItemSettings().maxCount(1), 122));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BCGMusic.MOD_ID, name), item);
     }
@@ -31,6 +31,8 @@ public class ModItems {
         entries.add(WALTZ_FOR_THE_LILIES);
         entries.add(BLESSINGS);
         entries.add(BEGINNING_OF_INFINITY);
+        entries.add(PLANES_IN_SPACE);
+        entries.add(JOE_THEME);
     }
 
     public static void registerModItems() {
