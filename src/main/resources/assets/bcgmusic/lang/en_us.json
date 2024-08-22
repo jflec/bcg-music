@@ -12,5 +12,14 @@
   "item.bcgmusic.planes_in_space.desc": "bndf88 - Planes in Space",
 
   "item.bcgmusic.joe_theme": "§dMusic Disc§r",
-  "item.bcgmusic.joe_theme.desc": "bndf88 - Joe Theme"
+  "item.bcgmusic.joe_theme.desc": "bndf88 - Joe Theme",
+
+  "item.bcgmusic.arrival": "§dMusic Disc§r",
+  "item.bcgmusic.arrival.desc": "bndf88 - Arrival",
+
+  "item.bcgmusic.departure": "§dMusic Disc§r",
+  "item.bcgmusic.departure.desc": "bndf88 - Departure",
+
+  "item.bcgmusic.voyagers": "§dMusic Disc§r",
+  "item.bcgmusic.voyagers.desc": "bndf88 - Voyagers"
 }

@@ -23,6 +23,13 @@ public class ModItems {
             new MusicDiscItem(9, ModSounds.PLANES_IN_SPACE, new FabricItemSettings().maxCount(1), 176));
     public static final Item JOE_THEME = registerItem("joe_theme",
             new MusicDiscItem(9, ModSounds.JOE_THEME, new FabricItemSettings().maxCount(1), 76));
+    public static final Item ARRIVAL = registerItem("arrival",
+            new MusicDiscItem(9, ModSounds.ARRIVAL, new FabricItemSettings().maxCount(1), 89));
+    public static final Item DEPARTURE = registerItem("departure",
+            new MusicDiscItem(9, ModSounds.DEPARTURE, new FabricItemSettings().maxCount(1), 175));
+    public static final Item VOYAGERS = registerItem("voyagers",
+            new MusicDiscItem(9, ModSounds.VOYAGERS, new FabricItemSettings().maxCount(1), 209));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BCGMusic.MOD_ID, name), item);
     }
@@ -33,6 +40,9 @@ public class ModItems {
         entries.add(BEGINNING_OF_INFINITY);
         entries.add(PLANES_IN_SPACE);
         entries.add(JOE_THEME);
+        entries.add(ARRIVAL);
+        entries.add(DEPARTURE);
+        entries.add(VOYAGERS);
     }
 
     public static void registerModItems() {

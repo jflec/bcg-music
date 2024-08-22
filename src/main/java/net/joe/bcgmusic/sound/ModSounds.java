@@ -12,6 +12,9 @@ public class ModSounds {
     public static final SoundEvent BEGINNING_OF_INFINITY = registerSoundEvent("beginning_of_infinity");
     public static final SoundEvent PLANES_IN_SPACE = registerSoundEvent("planes_in_space");
     public static final SoundEvent JOE_THEME = registerSoundEvent("joe_theme");
+    public static final SoundEvent ARRIVAL = registerSoundEvent("arrival");
+    public static final SoundEvent DEPARTURE = registerSoundEvent("departure");
+    public static final SoundEvent VOYAGERS = registerSoundEvent("voyagers");
 
     private static SoundEvent registerSoundEvent(String name) {
         Identifier identifier = new Identifier(BCGMusic.MOD_ID, name);

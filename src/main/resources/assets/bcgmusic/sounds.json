@@ -42,6 +42,33 @@
         "stream": true
       }
     ]
+  },
+
+  "voyagers": {
+    "sounds": [
+      {
+        "name": "bcgmusic:voyagers",
+        "stream": true
+      }
+    ]
+  },
+
+  "departure": {
+    "sounds": [
+      {
+        "name": "bcgmusic:departure",
+        "stream": true
+      }
+    ]
+  },
+
+  "arrival": {
+    "sounds": [
+      {
+        "name": "bcgmusic:arrival",
+        "stream": true
+      }
+    ]
   }
 }
 
